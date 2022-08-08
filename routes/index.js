@@ -45,6 +45,9 @@ router.get('/PMN6', (req, res) => res.render('PMN6'));
 router.get('/Gov', (req, res) => res.render('Gov'));
 
 //  Business Studies
+router.get('/BusinessStudiesGr11', (req, res) => res.render('BusGr11'));
+
+//  Business Studies
 router.get('/BusinessStudiesGr12', (req, res) => res.render('BusGr12'));
 
 

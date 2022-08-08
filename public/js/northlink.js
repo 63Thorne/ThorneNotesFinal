@@ -573,6 +573,22 @@ dropdownMenu32.classList.toggle("hide32");
 });
 
 
+// Drop down click events 
+
+
+
+const dropdownBtn33= document.querySelector(".dropdown__button33");
+const dropdownMenu33= document.querySelector(".dropdown__menu33");
+
+
+dropdownBtn33.addEventListener('click', ()=> {
+
+dropdownMenu33.classList.toggle("hide33"); 
+
+});
+
+
+
 
 
 
