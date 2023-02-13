@@ -51,6 +51,9 @@ router.get('/BusinessStudiesGr11', (req, res) => res.render('BusGr11'));
 router.get('/BusinessStudiesGr12', (req, res) => res.render('BusGr12'));
 
 
+//  Personell Training N5
+router.get('/PersonellTrainingN5', (req, res) => res.render('PersonellTrainingN5'));
+
 
 //  RandomNotes
 router.get('/RandomNotes', (req, res) => res.render('RandomNotes'));
