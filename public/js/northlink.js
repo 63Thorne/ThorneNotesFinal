@@ -117,6 +117,21 @@ majordropdownMenu8.classList.toggle("hide2");
 });
 
 
+// Major Buttons
+
+
+
+const majordropdownBtn9= document.querySelector(".major__dropdown__button9");
+const majordropdownMenu9= document.querySelector(".major__dropdown__menu9");
+
+
+majordropdownBtn9.addEventListener('click', ()=> {
+
+majordropdownMenu9.classList.toggle("hide2");
+
+});
+
+
 // Drop down click events
 
 
@@ -584,6 +599,21 @@ const dropdownMenu33= document.querySelector(".dropdown__menu33");
 dropdownBtn33.addEventListener('click', ()=> {
 
 dropdownMenu33.classList.toggle("hide33"); 
+
+});
+
+
+// Drop down click events 
+
+
+
+const dropdownBtn34= document.querySelector(".dropdown__button34");
+const dropdownMenu34= document.querySelector(".dropdown__menu34");
+
+
+dropdownBtn34.addEventListener('click', ()=> {
+
+dropdownMenu34.classList.toggle("hide34"); 
 
 });
 
