@@ -41,6 +41,11 @@ router.get('/PMN5', (req, res) => res.render('PMN5'));
 //  PMN6
 router.get('/PMN6', (req, res) => res.render('PMN6'));
 
+
+//  PRN5
+router.get('/PRN5', (req, res) => res.render('PRN5'));
+
+
 //  Governance
 router.get('/Gov', (req, res) => res.render('Gov'));
 
@@ -57,6 +62,10 @@ router.get('/PersonellTrainingN5', (req, res) => res.render('PersonellTrainingN5
 
 //  RandomNotes
 router.get('/RandomNotes', (req, res) => res.render('RandomNotes'));
+
+
+//  TestAudio
+router.get('/TestAudio', (req, res) => res.render('test'));
 
 
 //Paying User

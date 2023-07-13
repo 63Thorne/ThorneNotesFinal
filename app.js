@@ -58,6 +58,7 @@ app.use('/img', express.static(__dirname + 'public/img'))
 
 
 
+
 //Routes 
 app.use('/', require('./routes/index'));
 
