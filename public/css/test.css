@@ -5,11 +5,18 @@
 }
 
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; 
     background-color: hsl(235,24%,19%);
     font-size:18px;
     
     justify-content: center;
+}
+
+        
+
+li{
+    padding: 5px;
+    display: list-item;
 }
 
 .background-image{
@@ -52,6 +59,11 @@ align-items: center;
      
   }
 
+  .FounderText h5{
+     color: aliceblue;
+  font-size: 15px;
+  }
+
   .Courses{
    
     border-radius: 3px;
@@ -84,8 +96,8 @@ h6{
   font-size: 15px;
 }
 
-h5{
-  color: aliceblue;
+.CampusName h5{
+  color: blue;
   
   
 }
