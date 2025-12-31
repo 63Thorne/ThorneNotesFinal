@@ -49,6 +49,11 @@ router.get('/PRN5', (req, res) => res.render('PRN5'));
 //  Governance
 router.get('/Gov', (req, res) => res.render('Gov'));
 
+//  Governance
+router.get('/Criminology', (req, res) => res.render('Criminology'));
+
+
+
 //  Business Studies
 router.get('/BusinessStudiesGr11', (req, res) => res.render('BusGr11'));
 
