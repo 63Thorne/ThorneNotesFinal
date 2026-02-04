@@ -15,7 +15,11 @@ router.get('/', (req, res) => res.render('northlink'));
 // EBMN5
 router.get('/EBMN5', (req, res) => res.render('EBMN5'));
 
+//  Criminology L2
+router.get('/CriminologyL2', (req, res) => res.render('CriminologyL2'));
 
+//  Criminology L2
+router.get('/CriminologyL3', (req, res) => res.render('CriminologyL3'));
 
 // Welcome Page
 router.get('/PaymentDetails', (req, res) => res.render('PaymentDetails'));
